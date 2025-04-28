@@ -13,7 +13,7 @@ Projeto de estudo de uma **Single Page Application (SPA)** utilizando **Gulp**, 
 
 ---
 
-## 📂 Estrutura
+## Estrutura
 
 ```bash
 SPA/
@@ -31,7 +31,7 @@ SPA/
 
 ---
 
-## ⚡ Desafios e Soluções
+## Desafios e Soluções
 
 - Problemas de referência de arquivos ➔ Corrigido ajustando os caminhos no `index.html` e no JavaScript.
 - Live reload não funcionando ➔ Configuração adequada do `gulp-webserver` e `gulp-watch`.
@@ -39,7 +39,7 @@ SPA/
 
 ---
 
-## 🙏 Agradecimento
+## Agradecimento
 
 Agradeço ao **Leonardo Moreira Leitão** e à **Cod3r Cursos Online** por todo o conteúdo, apoio e incentivo nessa jornada de aprendizado! 🚀
 
