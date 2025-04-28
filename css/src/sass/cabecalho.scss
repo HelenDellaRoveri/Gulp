@@ -1,0 +1,17 @@
+@use 'variaveis';
+
+header.principal {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header.principal button {
+    margin: 5px;
+}
+
+@media(max-width: variaveis.$largura-celular) {
+    header.principal {
+        justify-content: center;
+    }
+}

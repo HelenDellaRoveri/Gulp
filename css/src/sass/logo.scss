@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+
+aside.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: variaveis.$cor-primaria;
+    color: variaveis.$cor-branca;
+}
+
+@media(max-width: variaveis.$largura-celular) {
+    aside.logo {
+        justify-content: center;
+    }
+}

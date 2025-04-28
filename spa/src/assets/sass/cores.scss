@@ -1,0 +1,11 @@
+@use 'variaveis';
+
+.red { color: variaveis.$cor-vermelha-1; }
+.white { color: variaveis.$cor-branca; }
+.bg-red { background-color: variaveis.$cor-vermelha-1; }
+.bg-blue { background-color: variaveis.$cor-azul-1; }
+
+.gd-verde-azul { background: variaveis.$gradiente-1; }
+.gd-cinza { background: variaveis.$gradiente-2; }
+.gd-laranja { background: variaveis.$gradiente-3; }
+.gd-azul {background: variaveis.$gradiente-4; }

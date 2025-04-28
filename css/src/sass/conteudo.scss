@@ -1,0 +1,6 @@
+@use 'variaveis';
+
+main.conteudo {
+    background-color: variaveis.$cor-bg-primaria; 
+    padding: 15px;
+}
